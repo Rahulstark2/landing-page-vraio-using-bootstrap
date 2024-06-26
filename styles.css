@@ -1,0 +1,1257 @@
+.icon1:hover{
+    opacity: 0.9;
+}
+
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .navbar-brand img {
+    height: 40px;
+  }
+
+  .vraio-logo{
+    height: 70px !important;
+    width: 135px !important;
+  }
+
+  .hov:hover{
+    color: #3982D8 !important;
+    background-color: none !important;
+
+  }
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item.active {
+    background-color: transparent!important; 
+}
+
+
+.dropdown-menu{
+    border: none;
+}
+.shadow-left-only {
+    box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.1);
+    border-width: 0;
+
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    border: 0;
+    width: auto;
+    display: none;
+    left: 0px;
+    
+  }
+  
+
+  
+  .dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+  }
+  @media screen and (min-width:992px) {
+    .dropend:hover > .dropdown-menu{
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    
+  }
+
+  .pagination-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.pagination-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.pagination-dot.active {
+    opacity: 1;
+}
+
+.pagination-dot.inactive {
+    background-color: black;
+}
+
+
+.slider {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 50px;
+    margin: auto;
+    box-shadow: none;
+    text-decoration: none;
+
+}
+
+.slide-contents{
+    max-width: 40%;
+    animation-name: fadeInUp;
+    animation-duration: 2.5s;
+
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform:translate3d(0, 100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform:none
+    }
+}
+
+.slide-headingb:not(:last-child){
+    margin-bottom: 30px;
+
+}
+
+    .slide-headingb{
+    color: #1A1A1A;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    }
+
+    .slide-buttonb{
+        font-family: "Poppins";
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        color: #1A1A1A;
+        border-color: #1A1A1A;
+        background: transparent;
+        text-decoration: none;
+        border: 2px solid #000;
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 2px;
+        fill: #fff;
+        text-align: center;
+        transition: all .3s;
+
+    }
+
+    .slide-headingw:not(:last-child){
+        margin-bottom: 30px;
+    
+    }
+    
+        .slide-headingw{
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        }
+    
+        .slide-buttonw{
+            font-family: "Poppins";
+            font-size: 0.9rem;
+            font-weight: 400;
+            line-height: 1.75rem;
+            color: #fff;
+            border-color: #fff;
+            background: transparent;
+            text-decoration: none;
+            border: 2px solid #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 2px;
+            fill: #fff;
+            text-align: center;
+            transition: all .3s;
+    
+        }
+    
+        .navbar-collapse {
+            z-index: 1000;
+        }
+
+        
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+@media (max-width: 768px) { 
+   .navbar-collapse {
+        flex-direction: column; 
+    }
+
+   .navbar-nav {
+        flex-direction: column; 
+    }
+
+   .navbar-nav.nav-link {
+        padding: 0.5rem 1rem; 
+    }
+
+   .navbar-brand {
+        margin-bottom: 1rem; 
+    }
+
+   .navbar-toggler {
+        display: block; 
+    }
+}
+
+
+@media (max-width: 576px) {
+   .navbar-brand img {
+        height: 35px; 
+    }
+
+   .navbar-nav.nav-link {
+        font-size: 0.8rem; 
+    }
+}
+
+@media (max-width: 992px) { 
+    .navbar-collapse {
+         background-color: #fff; 
+     }
+ }
+
+ .custom-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+}
+.custom-link i {
+    margin-left: 8px;
+}
+
+.innovative{
+    color: #1A1A1A;
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.75em;
+    letter-spacing: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.digital{
+    color: #1A1A1A;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.953rem;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.right-text-design{
+    height: 100%;
+    transition: background .3s, border .3s, border-radius .3s,
+    box-shadow .3s, transform .4s;
+    text-align: justify;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #dfceff;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #6a32db;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #6a32db;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #dfceff;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+.explore{
+  color: #1A1A1A;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: none;
+  font-style: inherit;
+  border: 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: initial;
+  word-wrap: break-word;
+  padding-top: 80px;
+}
+
+.services-1{
+  color: #1A1A1A;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.953rem;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: none;
+  font-style: inherit;
+  border: 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: initial;
+  word-wrap: break-word;
+  
+
+}
+
+.service-card {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  height: 280px;
+  width: 100%;
+}
+.service-card:hover::before{
+  background-color: #3982D8;
+  opacity: 0.5;
+}
+
+.service-card:before{
+  transition: background 0.3s, border-radius 0.3s,
+  opacity 0.3s;
+  opacity: 1;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 12px 12px 12px 12px;
+  box-sizing: border-box;
+
+}
+
+.service-card:after{
+  box-sizing: border-box;
+}
+.erp {
+  background-image: url("https://vraio.in/wp-content/uploads/2023/03/erp-main.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.erp::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.mobile {
+  background-image: url("https://vraio.in/wp-content/uploads/2023/03/mobile-app.webp");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.mobile::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+
+
+.white-erp {
+  position: relative;
+  color: #ffffff;
+  font-size: 1.563rem;
+  line-height: 1.5em;
+  text-decoration: none;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.white-erp:any-link {
+  cursor: auto;
+}
+
+.white-erp:before{
+  box-sizing: border-box;
+}
+
+.white-erp:after{
+  box-sizing: border-box;
+}
+
+.white-erp:hover, .white-erp:focus, .white-erp:active {
+  color: #ffffff;
+}
+
+.explore-button {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+  z-index: 2;
+  margin-top: 65px;
+}
+
+.explore-button::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  bottom: 0px; 
+  left: 0;
+  border-radius: 0px 0px 10px 10px; 
+  transition: background 0.3s ease, bottom 0.3s ease; 
+}
+
+.explore-button:hover {
+  background: white;
+  color: black;
+}
+
+.explore-button:hover::after {
+  background: black;
+}
+
+
+
+
+
+.col-lg-2-4 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .col-lg-2-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+.table-logo {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 0; 
+}
+
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    border: 1px solid #c0c0c1;
+    
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+
+
+.logo-container img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.parent-boxes{
+  background-color: #3982D8;
+  margin-top: 60px;
+}
+
+.what {
+  font-size: 1.563rem;
+  font-weight: 500;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 1.5em;
+  margin-top: 80px;
+  margin-left: 95px;
+  padding: 0;
+  border: 0;
+  display: block;
+  color: #FFFFFF;
+  font-family: "Poppins", Sans-serif;
+  line-height: 1.5em;
+  word-wrap: break-word;
+  text-transform: none;
+}
+
+@media (max-width: 599px) {
+  .what {
+    margin-left: 0px;
+  }
+}
+
+.custom-box {
+  border: 2px solid white;
+  padding: 20px;
+  color: white;
+  position: relative;
+  width: 360px;
+  height: 185px;
+  margin-top: 70px;
+}
+.custom-box .icon {
+  position: absolute;
+  top: -30px;
+  left: 30%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+}
+
+@media (max-width: 599px) {
+  .custom-box {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .custom-box .icon {
+    left: 50%;
+  }
+
+  .col-custom-width {
+    margin-right: 0;
+  }
+
+  .mx-4 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .measure{
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .measure2{
+    margin-bottom: 10px;
+    margin-top: -40px;
+  }
+}
+
+
+
+.measure2{
+  margin-top: 25px;
+  margin-bottom: 80px;
+  
+}
+
+
+
+
+
+.drive{
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: none;
+  font-style: inherit;
+  border: 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  word-wrap: break-word;
+}
+
+.customer{
+  height: 100%;
+  transition: backgrouund .3s, border .3s, border-radius .3s, box-shadow .3s, transform .4s;
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  word-wrap: break-word;
+  text-transform: none;
+  margin-top: 20px;
+}
+
+.custom-bg {
+  background-image: url('https://vraio.in/wp-content/uploads/2023/03/testimonials-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center -90px;
+  position: relative;
+}
+
+.custom-bg:before{
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.custom-bg:after{
+  box-sizing: border-box;
+}
+
+.custom-shadow {
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  width: 100%; 
+  height: 365px;
+  margin-top: 18%;
+}
+
+@media (max-width: 900px) {
+  .custom-shadow {
+      height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .custom-shadow {
+      height: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .custom-shadow {
+      height: 600px;
+  }
+}
+
+.pagination-dot2 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px 5px;
+  cursor: pointer;
+  background-color: #3a81d8;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.pagination-dot2.active {
+  opacity: 1;
+}
+
+.pagination-dot2.inactive {
+  background-color: black;
+}
+
+.carousel-caption {
+  position: static;
+  color: black;
+  text-align: center;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.working {
+  color: #1A1A1A;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  cursor: grab;
+  word-wrap: break-word;
+  text-transform: none;
+  padding-right: 10%; 
+  padding-left: 10%;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 0px;
+  box-sizing: content-box;
+  object-fit: cover;
+  max-width: 100%;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  cursor: grab;
+  word-wrap: break-word;
+  color: rgb(34,34,34);
+  font-weight: 400;
+  text-transform: none;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.voice-of-customers {
+  color: #3a81d8;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+.subtitle {
+  font-style: italic;
+  color: black;
+  text-align: right;
+}
+
+.custom-container {
+  width: 80%;
+  margin: auto;
+}
+
+.insights{
+  color: #1A1A1A;
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: none;
+  font-style: inherit;
+  border: 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  word-wrap: break-word;
+  margin-left: 5%;
+}
+
+.vraio{
+  color: #1A1A1A;
+  font-family: "Poopins", Sans-serif;
+  font-size: 1.953rem;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: none;
+  font-style: inherit;
+  border: 0;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  word-wrap: break-word;
+  
+
+}
+
+.vraio:before{
+  box-sizing: border-box;
+}
+
+.vraio:after{
+  box-sizing: border-box;
+}
+
+.insights:before{
+  box-sizing: border-box;
+}
+
+.insights:after{
+  box-sizing: border-box;
+}
+
+.container-1 {
+  width: 81%;
+  
+}
+.container-2{
+  width: 81%;
+}
+
+.r {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1 1 22%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.insights-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  aspect-ratio: auto 295 / 240;
+  text-align: center;
+  color: rgb(34, 34, 34);
+}
+
+.insights-clients {
+  color: #1A1A1A;
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.75em;
+  text-align: center;
+}
+
+.insights-our {
+  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform .4s;
+  text-align: center;
+  color: #1A1A1A;
+  font-family: "Poppins";
+  font-size: 0.9rem;
+  line-height: 1.75em;
+}
+
+
+@media (max-width: 1200px) {
+  .container-1, .container-2 {
+    width: 90%;
+  }
+
+  .column {
+    padding: 10px;
+  }
+
+  .insights-clients {
+    font-size: 1.2rem;
+  }
+
+  .insights-our {
+    font-size: 0.85rem;
+  }
+  .insights{
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 992px) {
+  .r {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 1 1 45%;
+    margin: 10px 0;
+  }
+
+  .insights-image {
+    width: 100%;
+    height: auto;
+  }
+  .insights{
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+    margin: 5px 0;
+  }
+
+  .insights-clients {
+    font-size: 1rem;
+  }
+
+  .insights-our {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-1, .container-2 {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .column {
+    padding: 5px;
+  }
+
+  .insights-clients {
+    font-size: 0.9rem;
+  }
+
+  .insights-our {
+    font-size: 0.75rem;
+  }
+}
+
+.footer {
+  background-color: #3a81d8;
+  color: white;
+  padding: 30px 0;
+  margin-top: 4%;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.vraio-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.vraio-software {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.75em;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.fb {
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.fb:hover {
+  opacity: 0.8;
+}
+
+.services, .quick {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75em;
+  margin-top: 2rem;
+  color: #FFFFFF;
+}
+
+.services-menu, .contact-menu {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.75em;
+  display: block;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.services-menu:hover, .footer-menu:hover{
+  color: #93C244;
+  text-decoration: none !important;
+}
+
+.footer-menu{
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.75em;
+  
+  
+  transition: color 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.separator {
+  font-size: 1.3em;
+  margin-top: 1%;
+  line-height: 1;
+  display: inline-block;
+  transform: scaleY(1.4);
+}
+
+@media (max-width: 767px) {
+  .footer-logo {
+    text-align: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+  
+  .services, .quick {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .contact-menu {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .services, .quick {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .services, .quick {
+    margin-top: 0;
+  }
+}
+
+.enquire-button {
+  position: fixed;
+  right: 0px;
+  bottom: 470px;
+  z-index: 1030;
+  transform: rotate(-90deg);
+  transform-origin: bottom right;
+  cursor: pointer;
+}
+
+
+.enquire-button .btn {
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: 200;
+  background-color: #3a81d8;
+  border: 1px solid white;
+}
+
+.whatsapp-button{
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  z-index: 1030;
+}
+
+.whatsapp-button .btn {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #50ce5e;
+}
+
+.wp {
+  color: #FFFFFF;
+  
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.wp:hover {
+  color: #818a91;
+}
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+

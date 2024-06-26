@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #4084dc;">
+    <div class="container">
+      <div class="d-flex justify-content-between w-100">
+        <div class="mx-5">
+          <i class="bi bi-telephone-fill text-white" style="cursor: pointer; font-weight: 400; font-size: 0.9rem;">
+            <span class="fst-normal fw-normal"> (+91) 97387 35077 </span>
+          </i>
+          <span class="mx-1" style="color: #b8b8be;">|</span>
+          <i class="bi bi-envelope-fill text-white" style="cursor: pointer; font-weight: 400; font-size: 0.9rem;">
+            <span class="fst-normal fw-normal"> info</span>@<span class="fst-normal fw-normal">vraio.in</span>
+          </i>
+        </div>
+        <div class="mx-5">
+          <i class="bi bi-facebook text-white mx-2 icon1" style="cursor: pointer;"></i>
+          <i class="bi bi-linkedin text-white mx-2 icon1" style="cursor: pointer;"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" style="height: 85px;">
+    <div class="container">
+      <a class="navbar-brand mx-5 cursor-pointer" href="#">
+        <img src="vraio-logo-01.svg" alt="Logo" class="vraio-logo">
+      </a>
+      <button class="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav" style="margin-left: 70px;">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #3982D8; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px;">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">ERP SOLUTIONS</a></li>
+              <li class="nav-item dropend">
+                <a class="nav-link dropdown-toggle hov" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#" id="applicationDevelopmentDropdown">
+                APPLICATION DEVELOPMENT
+              </a>
+              <ul class="dropdown-menu shadow-left-only">
+                <li class="nav-item dropend">
+                <a class="nav-link dropdown-toggle hov" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#" id="applicationDevelopmentDropdown">
+                    MOBILE APPLICATION
+                </a>
+                    <ul class="dropdown-menu shadow-left-only">
+                        <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">ANDROID / IOS / CROSS PLATFORM</a></li>
+                      </ul>  
+                  
+               </li>
+                <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">WEB APPLICATION</a></li>
+                <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">WEB DEVELOPMENT</a></li>
+                <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">E-COMMERCE SOLUTIONS</a></li>
+              </ul>
+              </li>
+              <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">SOFTWARE CONSULTING SERVICE</a></li>
+              <li class="nav-item dropend">
+                <a class="nav-link dropdown-toggle hov" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#" id="applicationDevelopmentDropdown">
+                    IT INFRASTRUCTURE SERVICES
+                  </a>
+                  <ul class="dropdown-menu shadow-left-only">
+                    <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">HOSTING SERVICE</a></li>
+                    <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">MIGRATION SERVICE</a></li>
+                  </ul>  
+            </li>
+              <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">DIGITAL MARKETING</a></li>
+            <li><a class="dropdown-item hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">CYBER FORENSICS</a></li>
+        </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">CASE STUDIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">CLIENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">CAREERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hov" style="color: #1A1A1A; font-family: 'Poppins', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.5px; padding: 13px 20px; transition: 0.4s;" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel" style="height: 520px;" data-bs-interval="3000">
+    <!-- Pagination dots moved inside -->
+    <div class="pagination-dots">
+        <span class="pagination-dot active" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"></span>
+        <span class="pagination-dot inactive" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"></span>
+        <span class="pagination-dot inactive" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></span>
+    </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/vraio-home-banner-01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 520px;">
+      <a class="slider" href="">
+        <div class="slide-contents">
+            <div class="slide-headingb">
+                Solutions that are tailor engineered to simplify, automate and
+                streamline your business process.
+            </div>
+            <div class="slide-buttonb">
+                EXPLORE MORE
+            </div>
+        </div>
+      </a>
+    </div>
+      <div class="carousel-item" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/vraio-home-banner-02.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 520px;">
+        <a class="slider" href="">
+            <div class="slide-contents">
+                <div class="slide-headingw">
+                    Full service from strategy to implementation. Diverse technologies, industry expertise and a collaborative approach to 
+                    solve business problems.
+                </div>
+                <div class="slide-buttonw">
+                    EXPLORE MORE
+                </div>
+            </div>
+          </a>
+    </div>
+      <div class="carousel-item" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/vraio-home-banner-03.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 520px;">
+        <a class="slider" href="">
+            <div class="slide-contents">
+                <div class="slide-headingw">
+                    We dig deep into customer insights, business objectives and data to define the best path forward.
+                </div>
+                <div class="slide-buttonw">
+                    EXPLORE MORE
+                </div>
+            </div>
+          </a>
+    </div>
+    </div>
+    <button class="carousel-control-prev d-flex align-items-center justify-content-center no-hover-opacity-button" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" style="width: 45px; height: 45px; position: absolute; top: 50%; transform: translateY(-50%);">
+        <img src="left-arrow (2).png" alt="Previous" aria-hidden="true" style="width: 45px; height: 45px;">
+    </button>
+
+    <button class="carousel-control-next d-flex align-items-center justify-content-center no-hover-opacity-button" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" style="width: 45px; height: 45px; position: absolute; top: 50%; transform: translateY(-50%);">
+        <img src="right-arrow.png" alt="Previous" aria-hidden="true" style="width: 45px; height: 45px;">
+    </button>
+    
+  </div>
+
+  <div class="container my-5">
+    <div class="row">
+        <div class="col-md-6 my-2">
+            <h2 class="innovative mx-5">Innovative Software Solutions for</h2>
+            <h1 class="digital mx-5 my-2">Digital Age</h1>
+        </div>
+        <div class="col-md-6">
+            <p class="right-text-design my-2">
+                We offer the best development, support and service provider since from 2012 which has skills and expertise on modern technologies and tools to facilitate complex business solutions. Our business model focuses on having long-­term strategic relations with our clients by providing a combination of high quality, cost effective and on time delivery of solutions. In each client project, we work beyond the norms of a conventional client relationship by investing more time to understand customer current and future business needs. Our overall process includes concept, design, development, incorporation, and implementation. We believe in principle that “Vraio Software Solutions Pvt Ltd” can only grow if we deliver IT solutions to customers that will help them to grow their business.
+            </p>
+            <div class="d-flex justify-content-end mt-n4">
+                <button class="cta">
+                    <span>About us</span>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: #f8f8f8; margin-top: 120px;">
+  <h2 class="explore text-center">Explore Our</h2>
+  <h2 class="text-center services-1 mt-2">Services</h2>
+  <div class="row g-4" style="margin-top: 60px;">
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp">
+        <div>
+        <a class="white-erp">
+          <br>ERP
+          <br>
+          Solutions
+        </a>
+        </div>
+        <a href="#" class="explore-button">
+          Explore More  ➔
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card mobile">
+        <div>
+          <a class="white-erp">
+            <br>Mobile
+            <br>
+            Applications
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/software-applications.jpg');">
+        <div>
+          <a class="white-erp">
+            <br>Web
+            <br>
+            Applications
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/web-ddevelopment.png');">
+        <div>
+          <a class="white-erp">
+            <br>Web
+            <br>
+            Development
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+   
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/ecommerce-solutions.jpg');">
+        <div>
+          <a class="white-erp">
+            <br>E commerce
+            <br>
+            Solutions
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/Software-Consulting.png');">
+        <div>
+          <a class="white-erp">
+            <br>Software
+            <br>
+            Consulting
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/servers.jpg');">
+        <div>
+          <a class="white-erp">
+            <br>Hosting Service
+            <br>
+            
+          </a>
+          </div>
+          <a href="#" class="explore-button" style="margin-top: 102px;">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/web-hosting.jpg');">
+        <div>
+          <a class="white-erp">
+            <br>Migration
+            <br>
+            Service
+            
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+    <div class="col-lg-2-4 col-md-4 col-sm-6" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/digital-marketing.jpg'); background-position: center left;">
+        <div>
+          <a class="white-erp">
+            <br>Digital
+            <br>
+            Marketing
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+
+    <div class="col-lg-2-4 col-md-4 col-sm-6" style="margin-bottom: 85px;" >
+      <div class="service-card erp" style="background-image: url('https://vraio.in/wp-content/uploads/2023/03/forensic-services.png');">
+        <div>
+          <a class="white-erp">
+            <br>Cyber 
+            <br>
+            Forensics
+          </a>
+          </div>
+          <a href="#" class="explore-button">
+            Explore More  ➔
+          </a>
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+<div class="container table-logo">
+  <h2 class="explore text-center" style="margin-top: -1rem;">Our Most Successful</h2>
+  <h2 class="text-center services-1 mt-2">Collaborations</h2>
+  <div class="grid-container" style="margin-top: 100px;">
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/cim.jpg" alt="Chinmaya International Foundation">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Berlynoak.jpg" alt="BERLYNOAK">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/JDS-Karnataka.jpg" alt="Janata Dal (Secular)">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/instaKAS.jpg" alt="INSTA KAS">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/mahalakshmi-sweets.webp" alt="Mahalakshmi Sweets">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/cheff.jpg"alt="Cheff">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/pmi.jpg" alt="Project Management Institute Bangalore India">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/cif.jpg" alt="Unknown Logo 1">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/KantiSweets.jpg" alt="Kanti Sweets">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/bakes-flakes.jpg" alt="Kanti Bakes & Flakes">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Ayou.jpg" alt="AYOU">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/bhima.jpg" alt="Bhima Properties">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/crimson.jpg" alt="Crimson Lotus">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/ram.jpg" alt="Raising A Mathematician Foundation">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Bom-Cabs.jpg" alt="BOM">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Coders-Academy.jpg" alt="Coders Academy">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/zuddha-ayurveda.jpg" alt="Zuddha">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/ayyappa-full-logo.jpg" alt="Chinmaya Swayambhu Ayyappa Temple">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/lambda-logo.jpg" alt="Lambda Crunch Inc.">
+      </div>
+      <div class="logo-container">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/core-logo.jpg" alt="CORE">
+      </div>
+      <div class="logo-container">
+        <img src="https://vraio.in/wp-content/uploads/2023/03/wetheleaders_logo.jpg" >
+      </div>
+      <div class="logo-container">
+      <img src="https://vraio.in/wp-content/uploads/2023/03/alfapeb-logo.jpg">
+      </div>
+      <div class="logo-container">
+    <img src="https://vraio.in/wp-content/uploads/2023/05/sriranga.png">
+    </div>
+    <div class="logo-container">
+  <img src="https://vraio.in/wp-content/uploads/2023/05/GSA.png">
+    </div>
+    <div class="logo-container">
+  <img src="https://vraio.in/wp-content/uploads/2023/05/itree.png" style="background-color: #1A1A1A;">
+    </div>
+    <div class="logo-container">
+  <img src="https://vraio.in/wp-content/uploads/2023/05/CKC.png" style="background-color: #1A1A1A; width: 200px;">
+    </div>
+  <div class="logo-container">
+    <img src="https://vraio.in/wp-content/uploads/2023/05/Ashwini-Hospital.png" style="width: 200px;">
+    </div>
+    <div class="logo-container">
+    <img src="https://vraio.in/wp-content/uploads/2023/05/bhoomi-1024x582.png" style="width: 200px;">
+    </div>
+     <div class="logo-container">
+      <img src="https://vraio.in/wp-content/uploads/2023/05/newhardwick.png" style="width: 200px;">
+     </div>
+      <div class="logo-container">
+     <img src="https://vraio.in/wp-content/uploads/2023/05/kanti-labs.png">
+      </div>
+
+      <div class="logo-container" style="height: 280px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/05/kanti-novitat.png">
+       </div>
+
+       <div class="logo-container" style="height: 280px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/07/legit-foods-logo.svg" style="width: 83px; height: 36px;">
+       </div>
+
+       <div class="logo-container" style="height: 280px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/07/pixelbrew.png" style="height: 795px; height: 359px;">
+       </div>
+
+       <div class="logo-container" style="height: 280px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/oya_logo.png">
+       </div>
+
+       <div class="logo-container" style="height: 280px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/aarogya_shiksha.png">
+       </div>
+
+       <div class="logo-container" style="height: 260px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/b57.jpeg" width="200px">
+       </div>
+
+
+       <div class="logo-container" style="height: 260px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/gud-eets.jpeg" width="200px">
+       </div>
+
+       <div class="logo-container" style="height: 260px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/kafe57.jpeg" width="200px">
+       </div>
+
+       <div class="logo-container" style="height: 260px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/cine_max.png" width="200px">
+       </div>
+
+       <div class="logo-container" style="height: 260px;">
+        <img src="https://vraio.in/wp-content/uploads/2023/10/medilenz.png" style="height: 120px;">
+       </div>
+  </div>
+</div>
+
+<div class="parent-boxes container-fluid">
+  <div class="row">
+    <div class="col-sm what">
+      <p>
+        What
+        <br>
+        Makes
+        <br>
+        Us
+        <br>
+        Stand Out?
+      </p>
+    </div>
+    <div class="col-sm col-custom-width">
+      <div class="custom-box">
+        <div class="icon">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/drivededication.png" width="60" height="60">
+        </div>
+        <h2 class="drive mt-4">Drive & Dedication</h2>
+        <div class="customer">
+          Customer satisfaction is our number one priority, and we go above and beyond to exceed expectations.
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="custom-box measure">
+        <div class="icon">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Measurable.png" width="60" height="60">
+        </div>
+        <h2 class="drive mt-4">Measurable</h2>
+        <div class="customer">
+          Our commitment to delivering measurable business value is at the core of our philosophy. 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+      <div class="custom-box measure2 mx-auto">
+        <div class="icon">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Priority.png" width="60" height="60">
+        </div>
+        <h2 class="drive mt-4 ">Priority</h2>
+        <div class="customer">
+          Your needs are our top priority, and we are always available and ready to adapt to meet them. 
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="custom-box measure2 mx-auto">
+        <div class="icon">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/client-focused.png" width="60" height="60">
+        </div>
+        <h2 class="drive mt-4">Client-Focused Culture</h2>
+        <div class="customer">
+          We believe in taking a holistic approach that includes building strong relationships and delivering effective solutions.
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="custom-box measure2 mx-4">
+        <div class="icon">
+          <img src="https://vraio.in/wp-content/uploads/2023/03/Reputation.png" width="60" height="60">
+        </div>
+        <h2 class="drive mt-4 ">Reputation</h2>
+        <div class="customer">
+          Our commitment to transparency and ethics is unwavering and a fundamental part of our reputation.
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="custom-bg">
+  <div class="container custom-container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide custom-shadow" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="pagination-dots">
+                <span class="pagination-dot2 active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"></span>
+                <span class="pagination-dot2 inactive" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></span>
+                <span class="pagination-dot2 inactive" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></span>
+            </div>
+            <div class="carousel-inner" style="cursor: grab;">
+                <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <p class="working mt-3"> "Working with Vraio software Solutions has been a fantastic experience. Their team is extremely knowledgeable and skilled." </p>
+                        <img class="image mt-2" decoding="async" src="https://vraio.in/wp-content/uploads/2023/03/kantisweets-logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p class="working mt-3"> "We recently worked with this company to complete a project. They have been an invaluable partner in building our web application. They are knowledgeable and give attention to every detail." </p>
+                        <img class="image mt-2" decoding="async" src="https://vraio.in/wp-content/uploads/2023/03/instaKAS.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p class="working mt-3"> "Since implementing the web application, our business processes have become much more efficient and organized. The features of the application have allowed us to streamline our workflow and improve our overall productivity." </p>
+                        <img class="image mt-2" decoding="async" src="https://vraio.in/wp-content/uploads/2023/03/chinmayi-logo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="voice-of-customers">Voice of our Customers.</h2>
+        <p class="subtitle mt-4">Don’t just take our word for it, see what our satisfied clients are saying about their experiences with our services!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h2 class="insights">Insights from<br><span class="vraio">Vraio</span></h2>
+
+</div>
+<div class="container container-1">
+  <div class="row r">
+    <div class="col-sm column">
+      <img class="insights-image" decoding="async" width="295" height="240" src="https://vraio.in/wp-content/uploads/2023/03/clients.jpg">
+    </div>
+    <div class="col-sm column">
+      <h2 class="insights-clients">Clients</h2>
+      <div class="insights-our">
+        Our marketing and technology expertise has helped clients achieve success around the world. 
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-5">
+        <button class="cta">
+          <span>Know more</span>
+          <svg width="15px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="col-sm column">
+      <img class="insights-image" decoding="async" width="295" height="240" src="https://vraio.in/wp-content/uploads/2023/03/case-studies.jpg">
+    </div>
+    <div class="col-sm column">
+      <h2 class="insights-clients">Case Studies</h2>
+      <div class="insights-our">
+        Detailed literature on how our clients have benefitted from our expertise in various technologies.
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-5">
+        <button class="cta">
+          <span>Know more</span>
+          <svg width="15px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container container-2">
+  <div class="row r">
+    <div class="col-sm column">
+      <h2 class="insights-clients">Careers</h2>
+      <div class="insights-our">
+        Join our forward-thinking team that values creativity and innovation, shaping the future of the industry.
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-5">
+        <button class="cta">
+          <span>Know more</span>
+          <svg width="15px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="col-sm column">
+      <img class="insights-image" decoding="async" width="295" height="240" src="https://vraio.in/wp-content/uploads/2023/03/careers.jpg">
+    </div>
+    <div class="col-sm column">
+      <h2 class="insights-clients">Our Team</h2>
+      <div class="insights-our">
+        We value our people and strive to create a supportive, empowering work environment that brings out their best.
+      </div>
+      <div class="d-flex justify-content-center align-items-center mt-4">
+        <button class="cta">
+          <span>Know more</span>
+          <svg width="15px" height="10px" viewBox="0 0 13 10">
+            <path d="M1,5 L11,5"></path>
+            <polyline points="8 1 12 5 8 9"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="col-sm column">
+      <img class="insights-image" decoding="async" width="295" height="240" src="https://vraio.in/wp-content/uploads/2023/03/our-team.jpg">
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 footer-logo mt-5">
+          <img class="vraio-image" src="https://vraio.in/wp-content/uploads/2023/03/vraio-logo-footer.svg" loading="lazy" alt="Vraio Logo">
+          <div class="vraio-software">
+            Vraio Software Solutions Pvt Ltd was founded in 2012, with the primary goal of developing business solutions. 
+          </div>
+          <div class="social-icons mt-4">
+            <i class="bi bi-facebook fb"></i>
+            <i class="bi bi-linkedin fb mx-2"></i>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mt-4 mt-lg-0">
+          <h2 class="services fs-6 mt-5">SERVICES</h2>
+          <ul class="list-unstyled mt-3">
+            <li><a href="#" class="services-menu">ERP Solutions</a></li>
+            <li><a href="#" class="services-menu">Mobile Applications</a></li>
+            <li><a href="#" class="services-menu">Web Applications</a></li>
+            <li><a href="#" class="services-menu">Web Development</a></li>
+            <li><a href="#" class="services-menu">E Commerce Solutions</a></li>
+            <li><a href="#" class="services-menu">Software Consulting</a></li>
+            <li><a href="#" class="services-menu">Hosting Services</a></li>
+            <li><a href="#" class="services-menu">Migration Services</a></li>
+            <li><a href="#" class="services-menu">Digital Marketing</a></li>
+            <li><a href="#" class="services-menu">Cyber Forensics</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 mt-4 mt-lg-0">
+          <h2 class="quick fs-6 mt-5">QUICK LINKS</h2>
+          <ul class="list-unstyled mt-3">
+            <li><a href="#" class="services-menu" style="color: #93C244;;">Home</a></li>
+            <li><a href="#" class="services-menu">About Us</a></li>
+            <li><a href="#" class="services-menu">Our Clients</a></li>
+            <li><a href="#" class="services-menu">Case Studies</a></li>
+            <li><a href="#" class="services-menu">Careers</a></li>
+            <li><a href="#" class="services-menu">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3 mt-4 mt-lg-0">
+          <h2 class="quick fs-6 mt-5">CONTACT</h2>
+          <p class="contact-menu"><i class="bi bi-telephone-fill fb"></i><span class="mx-1"> (+91) 97387 35077</span></p>
+          <p class="contact-menu"><i class="bi bi-envelope-at-fill fb"></i><span class="mx-2"> info@vraio.in </span></p>
+          <div class="d-flex align-items-start">
+            <i class="bi bi-geo-alt-fill me-2 mt-4 fb" style="cursor: auto;"></i>
+            <div>
+              <p class="mb-1 contact-menu" style="cursor: auto;">Banglore World Trade Center, 26/1,</p>
+              <p class="mb-1 contact-menu" style="cursor: auto;">22nd Floor, Brigade Gateway,</p>
+              <p class="mb-1 contact-menu" style="cursor: auto;">Dr Rajkumar Road, Malleshwaram,</p>
+              <p class="mb-0 contact-menu" style="cursor: auto;">Bengaluru, Karnataka 560055</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid border-top py-3 mt-4">
+        <div class="row">
+            <div class="col-md-6 mt-2 contact-menu" style="cursor: auto;">
+                Copyright © 2023 Vraio Software Solutions Pvt Ltd. All Rights Reserved.
+            </div>
+            <div class="col-md-6 text-end mt-2">
+                <span class=" footer-menu">Privacy Policy <span class="text-white mx-1 separator">|</span></span>
+                <span class="footer-menu">Terms of Use <span class="text-white mx-1 separator">|</span></span>
+                <span class="footer-menu">Refund</span>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <div class="enquire-button">
+    <button class="btn btn-primary w-100">Enquire</button>
+  </div>
+
+  <div class="whatsapp-button">
+    <a href="https://wa.me/YourWhatsAppNumber" class="btn btn-success" target="_blank">
+      <i class="bi bi-whatsapp wp"></i>
+    </a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+  <script>
+
+    
+    var carousel = document.getElementById('carouselExampleAutoplaying');
+    var bsCarousel = new bootstrap.Carousel(carousel, {
+        interval: 3000
+    });
+
+    carousel.addEventListener('slide.bs.carousel', function (event) {
+        var index = event.to;
+        document.querySelectorAll('.pagination-dot').forEach((dot, i) => {
+            if (i === index) {
+                dot.classList.remove('inactive');
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+                dot.classList.add('inactive');
+            }
+        });
+    });
+
+    document.querySelectorAll('.pagination-dot').forEach((dot, index) => {
+        dot.addEventListener('click', function() {
+            bsCarousel.to(index);
+        });
+    });
+
+
+    var carousel = document.getElementById('carouselExampleIndicators');
+    var bsCarousel = new bootstrap.Carousel(carousel, {
+        interval: 3000
+    });
+
+    carousel.addEventListener('slide.bs.carousel', function (event) {
+        var index = event.to;
+        document.querySelectorAll('.pagination-dot2').forEach((dot, i) => {
+            if (i === index) {
+                dot.classList.remove('inactive');
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+                dot.classList.add('inactive');
+            }
+        });
+    });
+
+    document.querySelectorAll('.pagination-dot2').forEach((dot, index) => {
+        dot.addEventListener('click', function() {
+            bsCarousel.to(index);
+        });
+    });
+
+
+
+    
+
+
+
+  
+
+
+
+    
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
